@@ -1,0 +1,23 @@
+from fmpy import simulate_fmu, dump, plot_result
+import numpy as np
+import pandas as pd
+
+fmu = 'filename.fmu'
+dump(fmu)
+
+user_val = float(input("Enter the temperature reference: "))
+input_data = np.array([(0.0, user_val)], dtype=[('time', np.float64), ('In1', np.float64)])
+
+result = simulate_fmu(fmu, input=input_data)
+
+t_new = np.arange(0, result['time'][-1]+1, 1.0)
+resampled = np.zeros(len(t_new), dtype=result.dtype)
+resampled['time'] = t_new
+for name in result.dtype.names:
+    if name != 'time':
+        resampled[name] = np.interp(t_new, result['time'], result[name])
+
+plot_result(resampled)
+
+pd.DataFrame(resampled).to_csv('filename.csv', index=False)
+print("CSV saved as 'filename.csv'")
