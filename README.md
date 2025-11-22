@@ -15,4 +15,6 @@ The models prioritize **predictive scheduling and user-driven curtailment** over
 * **Thermal Regulation:** The **Thermal House Model** demonstrates thermostatic control, utilizing a dynamic **Temperature Setpoint** and temperature error signal to manage **Heat Flow** and consumption based on user comfort references.
 * **Model Validation:** High-fidelity thermodynamic (House, Refrigerator) and electromechanical (Washing Machine) dynamics are maintained to ensure accurate simulation of **thermal inertia** and energy consumption profiles during scheduling and recovery phases.
 
-All models and associated Functional Mock-up Units (FMUs) are organized into dedicated folders for seamless deployment and exchange within the larger Digital Twin (DT) core infrastructure.
+The models re organized into dedicated folders for seamless deployment and exchange within the project partners.
+
+The generated FMUs for the integration part of the task are also available in a seperate folder.
