@@ -2,7 +2,7 @@
 
 This repository constitutes the files for **Task 2.1 (Component Modeling)** of the EU-DREAM project, providing validated, dynamic system models of household appliances and a residential thermal environment engineered for energy management (Demand Response) analysis.
 
-## 🚀 Project Overview
+## Task Overview
 
 The models are structured for modular integration and feature high-fidelity component modeling essential for simulating the impact of smart control and price signals on household energy consumption.
 
