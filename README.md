@@ -18,3 +18,6 @@ The models prioritize **predictive scheduling and user-driven curtailment** over
 The models re organized into dedicated folders for seamless deployment and exchange within the project partners.
 
 The generated FMUs for the integration part of the task are also available in a seperate folder.
+
+## Author
+Created by [Babak Arbab Zavar] ([baz@energy.aau.dk])
