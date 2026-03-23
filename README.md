@@ -20,4 +20,4 @@ The models re organized into dedicated folders for seamless deployment and excha
 The generated FMUs for the integration part of the task are also available in a seperate folder.
 
 ## Author
-Created by [Babak Arbab Zavar] ([baz@energy.aau.dk])
+***Created by [Babak Arbab Zavar] ([baz@energy.aau.dk])***
